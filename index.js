@@ -20,10 +20,10 @@ alert("hello sailor boy");
 }
 
 
-// var theElement = document.getElementById("cyan");
-//
-// theElement.addEventListener("touchend", handlerFunction, false);
-//
-// function handlerFunction(event) {
-//   alert("touching worked!");
-// }
+var theElement = document.getElementById("button");
+
+theElement.addEventListener("touchend", handlerFunction, false);
+
+function handlerFunction(event) {
+  alert("touching worked!");
+}
